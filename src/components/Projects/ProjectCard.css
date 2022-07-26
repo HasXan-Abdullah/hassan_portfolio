@@ -1,0 +1,29 @@
+.projectcard{
+    width: 300px;
+    transition: all 0.5s;
+    padding: 1vmax;
+    margin: 2vmax;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.projectcard > a{
+    text-decoration: none;
+    color: black;
+    width: inherit;
+}
+.projectcard  img{
+    width: inherit;
+    
+}
+.projectcard :hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(26, 26, 26);
+
+}
+@media screen and (max-width: 600px) {
+    .projectcard{
+        width: 200px;
+    }
+}
